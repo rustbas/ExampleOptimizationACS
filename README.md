@@ -20,9 +20,7 @@
 ![Динамическая система](/images/scheme.png)
 
 Необходимо подобрать такие коэффициенты <img src="https://render.githubusercontent.com/render/math?math=\large{k_\omega, k_e}">, чтобы минимизировать следующий критерий:
-<img src="https://render.githubusercontent.com/render/math?math=\center{\large{\begin{equation}
-    J = q \int_0^\infty (\omega_z (t) - \omega_{z_{л.д.}})^2 dt
-\end{equation}">
+<img src="https://render.githubusercontent.com/render/math?math=\center{\large{J = q \int_0^\infty (\omega_z (t) - \omega_{zld}})^2 dt">
 
 Физический смысл критерия - площадь, ограниченная кривыми выходного сигнала и сигнала управления: 
 
