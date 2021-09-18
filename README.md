@@ -21,7 +21,7 @@
 ![Динамическая система](/images/scheme.png)
 
 Необходимо подобрать такие коэффициенты <img src="https://render.githubusercontent.com/render/math?math=\large{k_\omega, k_e}">, чтобы минимизировать следующий критерий:
-<img src="https://render.githubusercontent.com/render/math?math=\center{\large{J = q \int_0^\infty (\omega_z (t) - \omega_{zld}})^2 dt}">
+<img src="https://render.githubusercontent.com/render/math?math=\large{J = q \int_0^\infty (\omega_z (t) - \omega_{zld}})^2 dt">
 
 Физический смысл критерия - площадь, ограниченная кривыми выходного сигнала и сигнала управления: 
 
@@ -34,4 +34,4 @@
 1. Создать функцию, описывающую поведение динамической системы
 2. Создать функцию, возвращающую оценку критерия
 3. Минимизировать функцию критерия и оценить время минимизации
-4. Сделать выводы
+4. Сделать выводы (приведены в файле Jupyter Notebook)
